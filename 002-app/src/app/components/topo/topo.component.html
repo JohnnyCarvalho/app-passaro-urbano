@@ -1,0 +1,54 @@
+<div class="fixed-top">
+  <nav class="navbar navbar-light bg-faded">
+    <div class="container">
+      <div class="row">
+        <div class="logo">
+          <div class="col-md-4">
+            <a routerLink="" class="navbar-brand">
+              <img src="/assets/logo.png" />
+            </a>
+          </div>
+        </div>
+        
+        <nav class="navbar">
+          <div class="container-fluid">
+            <form class="d-flex" role="search">
+              <div class="input">
+              <input class="form-control me-2" 
+              type="search" 
+              placeholder="Pesquiser por ofertas..." 
+              aria-label="Search"
+              #termoDaPesquisa
+              >
+            
+            </div>
+              <button (click)="pesquisa(termoDaPesquisa.value)" class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </nav>
+        <div class="carrinho">
+          <div class="col-md-2">
+            <a a routerLink="/ordem-compra"><img src="/assets/carrinho.png" /></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="menu">
+    <div class="container">
+      <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link" routerLinkActive="active" routerLink="restaurantes">Restaurantes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLinkActive="active" routerLink="diversao">Diversão</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="banner">
+  <img src="/assets/banners/img_1.jpg" />
+</div>

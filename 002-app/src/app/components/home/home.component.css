@@ -1,0 +1,17 @@
+.row {
+    margin-bottom: 50px;
+}
+
+.card-group {
+    border-radius: 10px;
+    margin-bottom: 10px;
+    position:relative;
+    
+
+}
+
+.card-group:hover{
+    top:-5px;
+    box-shadow:0 5px 5px rgb(226, 225, 225);
+    
+}
