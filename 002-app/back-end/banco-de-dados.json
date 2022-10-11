@@ -392,6 +392,27 @@
         ]
       },
       "id": 11
+    },
+    {
+      "pedido": {
+        "endereco": "Teixeira de Lara",
+        "numero": "54",
+        "complemento": "Casa 4",
+        "formaPagamento": "dinheiro",
+        "itens": [
+          {
+            "id": 1,
+            "img": {
+              "url": "/assets/ofertas/1/img1.jpg"
+            },
+            "titulo": "Super Burger",
+            "descricao_oferta": "Rodízio de Mini-hambúrger com opção de entrada.",
+            "valor": 29.9,
+            "quntidade": 1
+          }
+        ]
+      },
+      "id": 12
     }
   ]
 }

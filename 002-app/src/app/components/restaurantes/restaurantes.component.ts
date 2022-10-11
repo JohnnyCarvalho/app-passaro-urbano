@@ -11,8 +11,13 @@ export class RestaurantesComponent implements OnInit {
 
   public ofertas: Array<Oferta> | any
 
+  
+
+
+
+
   constructor(
-    private ofertasService: OfertasService
+    private ofertasService: OfertasService,
   ) { }
 
   ngOnInit(): void {

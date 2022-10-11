@@ -18,6 +18,7 @@ import { DescricaoReduzida } from './pipes/descricao-reduzida';
 import { OrdemCompraComponent } from './components/ordem-compra/ordem-compra.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -31,7 +32,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     OndeFicaComponent,
     ContatosComponent,
     DescricaoReduzida,
-    OrdemCompraComponent
+    OrdemCompraComponent,
   ],
   imports: [
     BrowserModule,
