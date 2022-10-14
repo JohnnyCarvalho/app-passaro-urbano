@@ -32,7 +32,7 @@ Para iniciar o projeto é necessário a instalação de algumas ferramentas, sã
 
 Em seguida, no arquivo ```angular.json``` deve-se fazer as seguites auterações:
 
-```javascript
+```json
 "styles": [
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
