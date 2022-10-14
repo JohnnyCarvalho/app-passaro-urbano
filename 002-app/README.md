@@ -4,6 +4,11 @@
 
 ## Tecnologias utilizadas no projeto
 
+<div style="display: inline_block"><br>
+  <img align="center"alt="Johnny-Angular" heigth="40" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg">
+  <img align="center" alt="Johnny-TS" height="40" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg">
+</div>
+
 
 ```javascript
 @Author Johnny Carvalho
