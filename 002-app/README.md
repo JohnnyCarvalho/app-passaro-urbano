@@ -15,4 +15,18 @@ Para iniciar o projeto é necessário a instalação de algumas ferramentas, sã
 
 ``` npm install --save jquery ```
 
-```npm install --save 
+```npm install --save ```
+
+Em seguida, no arquivo ```angular.json``` deve-se fazer as seguites auterações:
+
+```javascript
+"styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "src/styles.css"
+            ],
+            "scripts": [
+              "node_modules/popper.js/dist/umd/popper.min.js",
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.min.js"
+            ]
+```
