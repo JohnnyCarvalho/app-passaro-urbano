@@ -9,6 +9,7 @@
   <img align="center" alt="Johnny-TS" height="40" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg">
 </div>
 
+<hr>
 
 ```javascript
 @Author Johnny Carvalho
