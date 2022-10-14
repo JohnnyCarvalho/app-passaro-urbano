@@ -413,6 +413,27 @@
         ]
       },
       "id": 12
+    },
+    {
+      "pedido": {
+        "endereco": "Rua José Beira",
+        "numero": "826",
+        "complemento": "826",
+        "formaPagamento": "dinheiro",
+        "itens": [
+          {
+            "id": 1,
+            "img": {
+              "url": "/assets/ofertas/1/img1.jpg"
+            },
+            "titulo": "Super Burger",
+            "descricao_oferta": "Rodízio de Mini-hambúrger com opção de entrada.",
+            "valor": 29.9,
+            "quntidade": 0
+          }
+        ]
+      },
+      "id": 13
     }
   ]
 }
