@@ -17,7 +17,21 @@
 @Date 2022-10-11
 ```
 
-# Iniciar Projeto
+## Descrição do projeto
+
+Este projeto faz parte da etapa de aprendizado do framework Angular, um projeto que aborda muitas funcionalidades do framework, tais como:
+- Componentes
+- Modulos
+- Services com requisição http utilizando o HttpClientModule e o HttpClient
+- API fake utilizando o json-server
+- Data Binding
+- Property Binding
+- FormGroup e FormControl
+- *ngIf, *ngFor . . .
+
+Entre muitas outras funcionalidades desse framework super moderno de poderoso.
+
+## Iniciar Projeto
 
 Para iniciar o projeto é necessário a instalação de algumas ferramentas, são elas:
 
