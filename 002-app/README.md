@@ -39,6 +39,6 @@ Com as implementações efetuadas, deve-se rodar o seguinte comando no terminal:
 
 Em seguida abra um novo terminal na pasta back-end, com o terminal aberto insira o seguinte comando:
 
-``` java
+``` javascript
 json-server --watch banco-de-dados.json 
 ```
