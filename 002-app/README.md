@@ -35,6 +35,10 @@ Em seguida, no arquivo ```angular.json``` deve-se fazer as seguites auterações
 
 Com as implementações efetuadas, deve-se rodar o seguinte comando no terminal:
 
-```java
-ng serve
+```ng serve```
+
+Em seguida abra um novo terminal na pasta back-end, com o terminal aberto insira o seguinte comando:
+
+``` java
+json-server --watch banco-de-dados.json 
 ```
