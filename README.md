@@ -29,7 +29,8 @@ Este projeto faz parte da etapa de aprendizado do framework Angular, um projeto 
 - FormGroup e FormControl
 - *ngIf, *ngFor . . .
 
-Entre muitas outras funcionalidades desse framework super moderno de poderoso.
+Entre muitas outras funcionalidades desse framework super moderno de poderoso. Foram utilizados ferramentas como, popper.js, jquery, bootstrap, 
+json-server, Angular com TypeScript, como editor foi utilizado o VsCode.
 
 ## Iniciar Projeto
 
