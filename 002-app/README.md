@@ -37,8 +37,10 @@ Com as implementações efetuadas, deve-se rodar o seguinte comando no terminal:
 
 ```ng serve```
 
-Em seguida abra um novo terminal na pasta back-end, com o terminal aberto insira o seguinte comando:
+Em seguida, abra um novo terminal na pasta back-end, com o terminal aberto insira o seguinte comando:
 
 ``` javascript
 json-server --watch banco-de-dados.json 
 ```
+
+Com tudo concluído, abra o navegador no enderaço ```http://localhost:4200```
