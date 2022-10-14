@@ -9,4 +9,7 @@
 
 Para iniciar o projeto é necessário a instalação de algumas ferramentas, são elas:
 
-```npm install bootstrap ```
+```javascript
+npm install --save bootstrap 
+```
+``` npm install --save popper.js ```
