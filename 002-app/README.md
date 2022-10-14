@@ -9,4 +9,4 @@
 
 Para iniciar o projeto é necessário a instalação de algumas ferramentas, são elas:
 
-- ```npm install bootstrap ```
+```npm install bootstrap ```
