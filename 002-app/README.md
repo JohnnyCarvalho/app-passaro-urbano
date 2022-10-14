@@ -7,5 +7,6 @@
 
 # Iniciar Projeto
 
-- teste
-- teste
+Para iniciar o projeto é necessário a instalação de algumas ferramentas, são elas:
+
+- ```npm install bootstrap ```
