@@ -5,8 +5,9 @@
 ## Tecnologias utilizadas no projeto
 
 <div style="display: inline_block"><br>
-  <img align="center"alt="Johnny-Angular" heigth="40" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg">
+  <img align="center"alt="Johnny-Angular" heigth="45" width="45" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg">
   <img align="center" alt="Johnny-TS" height="40" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg">
+  <img align="center" alt="Johnny-Bootstrap" height="50" width="50" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg">
 </div>
 
 <hr>
@@ -16,7 +17,22 @@
 @Date 2022-10-11
 ```
 
-# Iniciar Projeto
+## Descrição do projeto
+
+Este projeto faz parte da etapa de aprendizado do framework Angular, um projeto que aborda muitas funcionalidades do framework, tais como:
+- Componentes
+- Modulos
+- Services com requisição http utilizando o HttpClientModule e o HttpClient
+- API fake utilizando o json-server
+- Data Binding
+- Property Binding
+- FormGroup e FormControl
+- *ngIf, *ngFor . . .
+
+Entre muitas outras funcionalidades desse framework super moderno de poderoso. Foram utilizados ferramentas como, popper.js, jquery, bootstrap, 
+json-server, Angular com TypeScript, como editor foi utilizado o VsCode.
+
+## Iniciar Projeto
 
 Para iniciar o projeto é necessário a instalação de algumas ferramentas, são elas:
 
@@ -32,7 +48,7 @@ Para iniciar o projeto é necessário a instalação de algumas ferramentas, sã
 
 Em seguida, no arquivo ```angular.json``` deve-se fazer as seguites auterações:
 
-```javascript
+```json
 "styles": [
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
