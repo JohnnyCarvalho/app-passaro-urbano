@@ -43,4 +43,5 @@ Em seguida, abra um novo terminal na pasta back-end, com o terminal aberto insir
 json-server --watch banco-de-dados.json 
 ```
 
-Com tudo concluído, abra o navegador no enderaço ```http://localhost:4200```
+Com tudo concluído, abra o navegador no enderaço ```http://localhost:4200```, feito isso é provável que a página principal do sistema
+tenha sido iniciada.
