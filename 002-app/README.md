@@ -1,4 +1,6 @@
+<p align="center">
 # App pássaro urbano
+</p>
 
 ## Tecnologias utilizadas no projeto
 
