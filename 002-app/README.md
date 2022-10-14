@@ -1,5 +1,8 @@
 # App pássaro urbano
 
+## Tecnologias utilizadas no projeto
+
+
 ```javascript
 @Author Johnny Carvalho
 @Date 2022-10-11
