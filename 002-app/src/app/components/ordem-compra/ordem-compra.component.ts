@@ -8,7 +8,11 @@ import { Pedido } from 'src/app/shared/pedido.model';
 @Component({
   selector: 'app-ordem-compra',
   templateUrl: './ordem-compra.component.html',
-  styleUrls: ['./ordem-compra.component.css']
+  styleUrls: ['./ordem-compra.component.css'],
+  /*
+  providers: [OrdemCompraService, CarrinhoService] 
+  Não é mais necessário fazer isso, pois os nossos services estão apontando para o root da aplicação, 
+  ou seja, todos os componentes tem acesso.*/
 })
 export class OrdemCompraComponent implements OnInit {
 
