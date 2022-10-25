@@ -3,7 +3,7 @@
 <div class="container">
   <div class="ordem-compra">
     <form [formGroup]="formulario" novalidate (ngSubmit)="confirmarCompra()">
-    
+
       <h5>Sua Compra</h5>
       <hr />
       <div  *ngIf="carrinhoService.exibirItens().length ; else mensagemCarrinhoVazio">
@@ -31,7 +31,7 @@
           {{item.quntidade * item.valor | currency: 'BRL': true}}
         </div>
       </div>
-      
+
       <div class="form-row">
         <div class="form-group col d-flex justify-content-end">
           <h4>Total do pedido: {{carrinhoService.totalValorCompra() | currency: 'BRL': true}}</h4>
@@ -40,9 +40,9 @@
     </div>
       <br />
 
-      
+
       <ng-template #mensagemCarrinhoVazio>
-        <h1 
+        <h1
         style="text-align: center; color: red; border: 2px solid red">Carrinho Vazio!</h1>
       </ng-template>
 
@@ -52,10 +52,10 @@
       <div class="form-row">
 
         <div class="form-group col-md-6">
-          <input 
-            type="text" 
-            class="form-control" 
-            placeholder="Endereço" 
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Endereço"
             autocomplete="off"
             formControlName="endereco"
           >
@@ -64,10 +64,10 @@
         </div>
 
         <div class="form-group col-md-2">
-          <input 
-            type="text" 
-            class="form-control" 
-            placeholder="Número" 
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Número"
             autocomplete="off"
             formControlName="numero"
           >
@@ -76,10 +76,10 @@
         </div>
 
         <div class="form-group col-md-4">
-          <input 
-            type="text" 
-            class="form-control" 
-            placeholder="Complemento" 
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Complemento"
             autocomplete="off"
             formControlName="complemento"
           >
@@ -94,9 +94,9 @@
       <hr />
 
       <div class="form-row">
-          
+
         <div class="form-group col-md-3">
-          <select 
+          <select
             class="form-control"
             formControlName="formaPagamento"
           >
@@ -110,21 +110,20 @@
       </div>
 
       <hr />
-      <button 
-        type="submit" 
+      <button
+        type="submit"
         class="btn btn-primary btn-lg"
-        
       >Cofirmar compra</button>
     </form>
   </div>
 </div>
 
-<!-- 
-  Podemos inserir o código abaixo 
+<!--
+  Podemos inserir o código abaixo
   para que o botão fique desabilitado enquanto o formulário
   não estiver preenchido corretamento
 
-  [disabled]="formulario.invalid" 
+  [disabled]="formulario.invalid"
 -->
 
 
@@ -140,7 +139,7 @@
 <!-- <div class="container">
   <div class="ordem-compra">
     <form novalidate #formulario="ngForm" (ngSubmit)="confirmarCompra()">
-    
+
       <h5>Sua Compra</h5>
       <hr />
 
@@ -168,7 +167,7 @@
           29.90
         </div>
       </div>
-      
+
       <div class="form-row" style="background: #FAFAFA; padding: 20px; border-bottom: solid 1px #F0F0F0">
         <div class="form-group col-sm-1">
           <img src="/assets/ofertas/4/img1.jpg" class="img-fluid">
@@ -193,7 +192,7 @@
           31.90
         </div>
       </div>
-      
+
       <div class="form-row">
         <div class="form-group col d-flex justify-content-end">
           <h4>Total do pedido: 61.80</h4>
@@ -201,18 +200,18 @@
       </div>
       <br />
 
-    
+
       <h5>Dados de entrega</h5>
       <hr />
 
       <div class="form-row">
 
         <div class="form-group col-md-6">
-          <input 
-            type="text" 
-            class="form-control" 
-            placeholder="Endereço" 
-            autocomplete="off" 
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Endereço"
+            autocomplete="off"
             required
             minlength="3"
             maxlength="120"
@@ -221,16 +220,16 @@
             #inputEndereco="ngModel"
           >
           <small *ngIf = "inputEndereco.valid && inputEndereco.touched" class="form-text text-success">Ok</small>
-          
+
           <small *ngIf = "!inputEndereco.valid && inputEndereco.touched"  class="form-text text-danger">Endereço inválido</small>
         </div>
 
         <div class="form-group col-md-2">
-          <input 
-            type="text" 
-            class="form-control" 
-            placeholder="Número" 
-            autocomplete="off" 
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Número"
+            autocomplete="off"
             required
             minlength="1"
             maxlength="20"
@@ -243,10 +242,10 @@
         </div>
 
         <div class="form-group col-md-4">
-          <input 
-            type="text" 
-            class="form-control" 
-            placeholder="Complemento" 
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Complemento"
             autocomplete="off"
             name="complemento"
             ngModel
@@ -260,9 +259,9 @@
       <hr />
 
       <div class="form-row">
-          
+
         <div class="form-group col-md-3">
-          <select 
+          <select
             class="form-control"
             name="formaPagamento"
             ngModel
@@ -279,8 +278,8 @@
       </div>
 
       <hr />
-      <button 
-        type="submit" 
+      <button
+        type="submit"
         class="btn btn-primary btn-lg"
       >Cofirmar compra</button>
     </form>
@@ -298,7 +297,7 @@
 <!-- <div class="container">
   <div class="ordem-compra">
     <form novalidate #formulario="ngForm">
-    
+
       <h5>Sua Compra</h5>
       <hr />
 
@@ -326,7 +325,7 @@
           29.90
         </div>
       </div>
-      
+
       <div class="form-row" style="background: #FAFAFA; padding: 20px; border-bottom: solid 1px #F0F0F0">
         <div class="form-group col-sm-1">
           <img src="/assets/ofertas/4/img1.jpg" class="img-fluid">
@@ -351,7 +350,7 @@
           31.90
         </div>
       </div>
-      
+
       <div class="form-row">
         <div class="form-group col d-flex justify-content-end">
           <h4>Total do pedido: 61.80</h4>
@@ -370,11 +369,11 @@
       <div class="form-row">
 
         <div class="form-group col-md-6">
-          <input type="text" 
-          class="form-control {{ enderecoEstadoPrimitivo ? '' : (enderecoValido ? 'is-valid' : 'is-invalid')}}" 
-          placeholder="Endereço" 
-          autocomplete="off" 
-          minlength="5" 
+          <input type="text"
+          class="form-control {{ enderecoEstadoPrimitivo ? '' : (enderecoValido ? 'is-valid' : 'is-invalid')}}"
+          placeholder="Endereço"
+          autocomplete="off"
+          minlength="5"
           required
           [value]="endereco"
           #inputEndereco
@@ -391,11 +390,11 @@
         </div>
 
         <div class="form-group col-md-2">
-          <input type="text" 
-          class="form-control {{ numeroEstadoPrimitivo ? '' : ( numeroValido ? 'is-valid' : 'is-invalid')}}" 
-          placeholder="Número" 
-          autocomplete="off" 
-          minlength="1" 
+          <input type="text"
+          class="form-control {{ numeroEstadoPrimitivo ? '' : ( numeroValido ? 'is-valid' : 'is-invalid')}}"
+          placeholder="Número"
+          autocomplete="off"
+          minlength="1"
           required
           [value]="numero"
           #inputNumero
@@ -412,9 +411,9 @@
         </div>
 
         <div class="form-group col-md-4">
-          <input type="text" 
-          class="form-control {{ complementoValido ? 'is-valid' : ''}}" 
-          placeholder="Complemento" 
+          <input type="text"
+          class="form-control {{ complementoValido ? 'is-valid' : ''}}"
+          placeholder="Complemento"
           autocomplete="off"
           [value]="complemento"
           #inputComplemento
@@ -428,9 +427,9 @@
       <hr />
 
       <div class="form-row">
-          
+
         <div class="form-group col-md-3">
-          <select class="form-control {{ formaPagamentoEstadoPrimitivo ? '' : 
+          <select class="form-control {{ formaPagamentoEstadoPrimitivo ? '' :
           ( formaPagamento == 'dinheiro' || formaPagamento == 'debito' ? 'is-valid' : 'is-invalid')}}"
           #selectFormaPagamento
           (change)="atualizaFormaPagamento(selectFormaPagamento.value)">
@@ -451,8 +450,8 @@
       </div>
 
       <hr />
-      <button type="button" 
-      class="btn btn-primary btn-lg" 
+      <button type="button"
+      class="btn btn-primary btn-lg"
       [disabled]="formEstado"
       (click)="confirmarCompra(pedido)">
         Cofirmar compra

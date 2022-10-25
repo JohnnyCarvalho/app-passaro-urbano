@@ -455,6 +455,69 @@
         ]
       },
       "id": 14
+    },
+    {
+      "pedido": {
+        "endereco": "Rua José Beira",
+        "numero": "826",
+        "complemento": "826",
+        "formaPagamento": "dinheiro",
+        "itens": [
+          {
+            "id": 1,
+            "img": {
+              "url": "/assets/ofertas/1/img1.jpg"
+            },
+            "titulo": "Super Burger",
+            "descricao_oferta": "Rodízio de Mini-hambúrger com opção de entrada.",
+            "valor": 29.9,
+            "quntidade": 1
+          }
+        ]
+      },
+      "id": 15
+    },
+    {
+      "pedido": {
+        "endereco": "Rua José Beira",
+        "numero": "826",
+        "complemento": "826",
+        "formaPagamento": "debito",
+        "itens": [
+          {
+            "id": 2,
+            "img": {
+              "url": "/assets/ofertas/2/img1.jpg"
+            },
+            "titulo": "Cozinha Mexicana",
+            "descricao_oferta": "Almoço ou Jantar com Rodízio Mexicano delicioso.",
+            "valor": 32.9,
+            "quntidade": 1
+          }
+        ]
+      },
+      "id": 16
+    },
+    {
+      "pedido": {
+        "endereco": "Teixeira de Lara",
+        "numero": "54",
+        "complemento": "Casa 4",
+        "formaPagamento": "dinheiro",
+        "itens": [
+          {
+            "id": 2,
+            "img": {
+              "url": "/assets/ofertas/2/img1.jpg"
+            },
+            "titulo": "Cozinha Mexicana",
+            "descricao_oferta": "Almoço ou Jantar com Rodízio Mexicano delicioso.",
+            "valor": 32.9,
+            "quntidade": 1
+          }
+        ]
+      },
+      "id": 17
     }
   ]
 }

@@ -10,8 +10,8 @@ import { Pedido } from 'src/app/shared/pedido.model';
   templateUrl: './ordem-compra.component.html',
   styleUrls: ['./ordem-compra.component.css'],
   /*
-  providers: [OrdemCompraService, CarrinhoService] 
-  Não é mais necessário fazer isso, pois os nossos services estão apontando para o root da aplicação, 
+  providers: [OrdemCompraService, CarrinhoService]
+  Não é mais necessário fazer isso, pois os nossos services estão apontando para o root da aplicação,
   ou seja, todos os componentes tem acesso.*/
 })
 export class OrdemCompraComponent implements OnInit {
@@ -39,12 +39,12 @@ export class OrdemCompraComponent implements OnInit {
 
   public confirmarCompra() {
     if (this.formulario.status === 'INVALID') {
-      
+
       this.formulario.get('endereco')?.markAllAsTouched()
       this.formulario.get('numero')?.markAllAsTouched()
       // this.formulario.get('complemento')?.markAllAsTouched()
       this.formulario.get('formaPagamento')?.markAllAsTouched()
-    } 
+    }
     else if (this.carrinhoService.exibirItens().length === 0) {
       alert('Você não adicionou nenhum item!')
     }
@@ -140,7 +140,7 @@ export class OrdemCompraComponent implements OnInit {
 //   ) { }
 
 //   ngOnInit(): void {
-    
+
 //   }
 
 //   //Methods
@@ -154,7 +154,7 @@ export class OrdemCompraComponent implements OnInit {
 //     //Valida campo
 //     if (this.endereco.length > 3) {
 //       this.enderecoValido = true;
-//     } 
+//     }
 //     else {
 //       this.enderecoValido = false;
 //     }
@@ -170,7 +170,7 @@ export class OrdemCompraComponent implements OnInit {
 //     //Valida campo
 //     if (this.numero !== '') {
 //       this.numeroValido = true;
-//     } 
+//     }
 //     else {
 //       this.numeroValido = false;
 //     }
@@ -199,7 +199,7 @@ export class OrdemCompraComponent implements OnInit {
 //     //Valida campo
 //     if (this.formaPagamento === 'dinheiro' || this.formaPagamento === 'debito') {
 //       this.formaPagamentoValido = true;
-//     } 
+//     }
 //     else {
 //       this.formaPagamentoValido = false;
 //     }
@@ -211,7 +211,7 @@ export class OrdemCompraComponent implements OnInit {
 //       this.formEstado = ''
 //     } else {
 //       this.formEstado = 'disabled'
-      
+
 //     }
 //   }
 
