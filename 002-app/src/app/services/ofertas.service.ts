@@ -95,7 +95,7 @@ export class OfertasService {
         .pipe(
             res => res
         )
-        
+
     }
 
     public exibirItensOferta(oferta: Oferta[]): void {
